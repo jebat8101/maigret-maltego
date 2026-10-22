@@ -12,7 +12,7 @@ from maltego_trx.transform import DiscoverableTransform
 from maltego_trx.maltego import LINK_STYLE_DASHED
 
 import maigret
-from maigret.result import QueryStatus
+from maigret.result import MaigretCheckStatus as QueryStatus #from maigret.result import QueryStatus
 
 logging.getLogger('asyncio').setLevel(logging.WARNING)
 
